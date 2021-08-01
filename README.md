@@ -1,1 +1,2 @@
-# sine_wave_art
+# Sine Wave Art
+Created in P5JS
