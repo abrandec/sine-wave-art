@@ -5,15 +5,15 @@ function setup() {
   
   function draw() {
     background(35);
-    rotateX(180); //axis rotation
+    rotateX(120); //axis rotation
     noFill();
     stroke(255);
   
     for (var i = 0; i < 60; i++) {
       //defining  rgb cycle
-      var r = map(sin(frameCount), -1, 1, 0, 150);
+      var r = map(sin(frameCount), -10, 50, 0, 150);
       var g = map(i, 0, 4, 0, 20);
-      var b = map(cos(frameCount), -1, 1, 200, 0);
+      var b = map(cos(frameCount), -20, 100, 200, 0);
   
       //display those colors, 60 fps
       stroke(r, g, b);
