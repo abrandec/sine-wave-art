@@ -1,5 +1,5 @@
 # Sine Wave Art
-Colorful sine wave created in P5JS
+Colorful sine waves created in p5js
 
 ## <ins>Demo</ins>
 
